@@ -26,6 +26,9 @@ export default function Home() {
         <h2>Second, add the following line just before the final  &lt;/div&gt;  </h2>
         <code className={styles.code}>&lt;bop-component storeId='ckr13tx1g0001hloptworzsxd' left='true' &gt;&lt;/bop-component&gt;   </code>
       
+        <h2>DONE!</h2>
+
+
         <h3 className={styles.card}>
           <a href="https://github.com/morganpage/nextjs-parade">SOURCE CODE FOR THIS PAGE IS HERE</a>
         </h3>
