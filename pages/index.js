@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Script from 'next/script'
 
 export default function Home() {
   return (
@@ -22,10 +21,15 @@ export default function Home() {
         </p>
 
         <h2>First, add the following line just before &lt;/Head&gt;  </h2>
-        <p>&lt;script src="https://bop-component.netlify.app/bop-component.js" type="module"&gt;&lt;/script&gt;   </p>
+        <code className={styles.code}>&lt;script src="https://bop-component.netlify.app/bop-component.js" type="module"&gt;&lt;/script&gt;   </code>
 
         <h2>Second, add the following line just before the final  &lt;/div&gt;  </h2>
-        <p>&lt;bop-component storeId='ckr13tx1g0001hloptworzsxd' left='true' &gt;&lt;/bop-component&gt;   </p>
+        <code className={styles.code}>&lt;bop-component storeId='ckr13tx1g0001hloptworzsxd' left='true' &gt;&lt;/bop-component&gt;   </code>
+      
+        <h3 className={styles.card}>
+          <a href="https://github.com/morganpage/nextjs-parade">SOURCE CODE FOR THIS PAGE IS HERE</a>
+        </h3>
+      
       </main>
 
       <footer className={styles.footer}>
